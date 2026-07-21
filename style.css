@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Pliant", sans-serif;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*      NAVBAR */
+
+body {
+    background-color: azure;
+}
+
+#navBar {
+    height: 3rem;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.navbar-icon {
+    height: 100%;
+    width: 15%;
+    /* background-color: gold; */
+}
+
+.navbar-icon h1 {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.nav-links {
+    height: 100%;
+    width: 30%;
+    /* background-color: limegreen; */
+}
+
+.nav-links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 680;
+} 
+
