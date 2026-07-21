@@ -1,8 +1,29 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: "Pliant", sans-serif;
     scroll-behavior: smooth;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    min-height: 100vh;
+    background-color: azure;
+    overflow-x: hidden;
+    padding-top: 3.5rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+section {
+    width: 100%;
 }
 
 .flex {
@@ -13,30 +34,28 @@
 
 /*      NAVBAR      */
 
-body {
-    background-color: azure;
-}
-
 
 /*      NAVBAR      */
 
 #navBar {
-    height: 3rem;
+    height: 3.5rem;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
     top: 0;
-    z-index: 1;
-    background-color: azure;
-    border: none;
-} 
+    left: 0;
+    z-index: 10;
+    background-color: rgba(240, 255, 255, 0.95);
+    padding: 0 1.25rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    backdrop-filter: blur(8px);
+}
 
 .navbar-icon {
     height: 100%;
-    width: 15%;
-    /* background-color: gold; */
+    width: auto;
     cursor: pointer;
 }
 
@@ -49,32 +68,28 @@ body {
 
 .nav-links {
     height: 100%;
-    width: 30%;
-    /* background-color: limegreen; */
+    width: auto;
 }
 
 .nav-links ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1.75rem;
     list-style: none;
+    flex-wrap: wrap;
 }
 
 .nav-links ul li a {
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: black;
-    font-weight: 680;
+    font-weight: 700;
 } 
 
 .hamburger {
     display: none;
 }
-
-
-
-
 
 
 /*========================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================  */
@@ -118,6 +133,7 @@ body {
     overflow: hidden;
     border: 3px solid #333;
     animation: morph 10s ease-in-out infinite;
+    cursor: not-allowed;
 }
 
 @keyframes morph {
@@ -145,5 +161,43 @@ body {
 .tech-stack {
     height: 10%;
     width: 65%;
-    background-color: rgb(88, 93, 91);
+    /* background-color: rgb(88, 93, 91); */
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    /* gap: 2rem; */
+}
+
+.tech-content {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.tech-content h3{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.tech-icons {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 3rem;
+}
+
+.tech-icons svg {
+    height: 3rem;
+    width: 3rem;
+    cursor: pointer;
+    transition: 0.5s linear all;
+}
+
+.tech-icons svg:hover {
+    height: 3.7rem;
+    width: 3.7rem;
 }
