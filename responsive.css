@@ -15,6 +15,27 @@
         width: 25%;
     }
 
+    #home {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-content {
+        height: 60%;
+        width: 65%;
+    }
+
+    .hero-content-content {
+        height: 70%;
+        width: 70%;
+    }
+
+    .hero-content-photo {
+        height: 85%;
+    }
 }
 
 
@@ -38,6 +59,13 @@
 
     .hero-content {
         width: 92%;
+    }
+
+    .hero-content-content {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .hero-content-photo img {
@@ -153,101 +181,6 @@
     }
 }
 
-
-/*==========================================================================================================================================================================================================================================================480PX==============================================================================================================================================================================================================================================  */
-
-
-@media (max-width : 320px) {
-     #navBar {
-        /* background-color: rgb(116, 116, 239); */
-        width: 100%;
-        /* overflow: hidden; */
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .nav-links {
-        display: none;
-    }
-
-    .navbar-icon {
-        width: 40%;
-    }
-
-    .hamburger {
-        display: block;
-        justify-content: center;
-        align-items: center;
-        width: 15%;
-        cursor: pointer;
-    }
-
-
-    .hero-content {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        width: 95%;
-    }
-
-    .hero-content-content {
-        width: 100%;
-        height: 100%;
-    }
-
-    .hero-content-photo {
-        height: 100%;
-        width: 100%;
-    }
-
-
-    .hero-content-photo img {
-        width: 90%;
-        height: 75%;
-    }
-
-
-
-    .tech-stack {
-        width: 90%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        gap: 2rem;
-        margin-top: 2rem;
-    }
-
-    .tech-content {
-        width: 90%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .tech-content h3 {
-        font-size: 1.5rem;
-        font-weight: 650;
-    }
-
-    .tech-content span {
-        display: none;
-    }
-
-    .tech-icons  {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-
-    .tech-icons svg {
-       height: 3rem;
-       width: 3rem;
-    }
-}
 
 
 
