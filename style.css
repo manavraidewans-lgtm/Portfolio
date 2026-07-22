@@ -117,7 +117,13 @@ section {
     height: 100%;
     width: 50%;
     background-color: rgb(119, 114, 83);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
 }
+
+
 
 
 .hero-content-photo {
@@ -194,7 +200,7 @@ section {
     height: 3rem;
     width: 3rem;
     cursor: pointer;
-    transition: 0.5s linear all;
+    transition: 0.4s linear all;
 }
 
 .tech-icons svg:hover {
