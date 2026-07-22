@@ -251,5 +251,66 @@
 /*      About    */
 
 #about {
-  
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aquamarine; */
+}
+
+.about-outer {
+    height: 60%;
+    width: 65%;
+    /* background-color: olive; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-left {
+    height: 100%;
+    width: 50%;
+    /* background-color: khaki; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-left-pic {
+    height: 70%;
+    width: 80%;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.cor {
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    position: relative;
+    background-color: cadetblue;
+    z-index: 1;
+    bottom: -60px;
+    right: -60px;
+}
+
+.about-right {
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(191, 187, 150); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.about-right-content {
+    height: 70%;
+    width: 90%;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: end;
+    align-items: end;
 }
