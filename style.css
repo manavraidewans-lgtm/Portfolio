@@ -97,7 +97,7 @@
 
 .hero-content {
     height: 60%;
-    width: 65%;
+    width:min(65%,1200px);
     /* background-color: aquamarine; */
     display: flex;
     justify-content: center;
@@ -194,7 +194,7 @@
 
 .tech-stack {
     height: 10%;
-    width: 65%;
+    width:min(65%,1200px);
     /* background-color: rgb(88, 93, 91); */
     display: flex;
     justify-content: start;
@@ -256,7 +256,7 @@
 
 .about-outer {
     height: 60%;
-    width: 65%;
+    width:min(65%,1200px);
     /* background-color: olive; */
     display: flex;
     justify-content: space-between;
@@ -399,7 +399,7 @@
 
 .outer-project {
     margin-top: 3rem;
-    width: 80%;
+    width:min(80%,1200px);
     /* background-color: lime; */
     display: flex;
     justify-content: start;
