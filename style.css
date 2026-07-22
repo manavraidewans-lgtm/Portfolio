@@ -435,52 +435,165 @@
     align-items: center;
     flex-direction: column;
     /* background-color: khaki; */
-    gap: 2rem;
+    gap: 6rem;
 }
 
 .card {
     height: 25rem;
     width: 85%;
-    background-color: rgb(46, 86, 185);
+    /* background-color: rgb(46, 86, 185); */
     border-radius: 20px;
-    overflow: hidden;
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* overflow: hidden; */
 }
 
 .card-left {
     height: 100%;
     width: 50%;
-    background-color: mediumspringgreen;
-    
+    /* background-color: mediumspringgreen; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 20px;
 }
 
 .card-right {
     height: 100%;
     width: 50%;
-    background-color: rgb(8, 24, 18);
+    /* background-color: rgb(137, 233, 198); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 1rem;
 }
+
+.card-right h3 {
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.card-right p {
+    color: grey;
+    font-size: 1rem;
+}
+
+
+.tech-card  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.tech-card i {
+    font-size: 1.3rem;
+}
+
+
+.link-card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.link-card a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+
+
 
 
 
 .card-1 {
     height: 25rem;
     width: 85%;
-    background-color: olive;
+    /* background-color: olive; */
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .card-1-left {
     height: 100%;
     width: 50%;
-    background-color: mediumspringgreen;
+    /* background-color: mediumspringgreen; */
+     height: 100%;
+    width: 50%;
+    /* background-color: rgb(137, 233, 198); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 1rem;
     
 }
 
 .card-1-right {
     height: 100%;
     width: 50%;
-    background-color: rgb(8, 24, 18);
+    /* background-color: rgb(8, 24, 18); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px ;
+    border: 1px solid;
+}
+
+.card-1-left h3 {
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.card-1-left p {
+    color: grey;
+    font-size: 1rem;
+}
+
+
+.tech-card  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.tech-card i {
+    font-size: 1.3rem;
+}
+
+
+.link-card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.link-card a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 1.2rem;
 }

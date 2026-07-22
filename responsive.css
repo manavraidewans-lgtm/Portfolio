@@ -1,75 +1,61 @@
-/*=================================================================================================================================================================================================================1024PX===============================================================================================================================================================================================================================================  */
+/* =====================================================
+   1024px and below (Small Laptop)
+===================================================== */
 @media (max-width:1024px){
 
 .hero-content,
-.about-outer{
-    width:90%;
-}
-
-.tech-stack{
-    width:90%;
-}
-
+.about-outer,
 .outer-project{
-    width:95%;
+    width:90%;
 }
 
 .hero-content-content h3{
     font-size:2.5rem;
 }
 
-.hero-content-content p{
-    font-size:1.2rem;
-}
-
-.tech-icons{
-    gap:2rem;
+.card,
+.card-1{
+    width:100%;
 }
 
 }
 
-/*==========================================================================================================================================================================================================================================================768PX==============================================================================================================================================================================================================================================  */
 
+/* =====================================================
+   768px and below (Tablet)
+===================================================== */
 @media (max-width:768px){
 
-/* NAVBAR */
-
-.nav-links{
-    display:none;
-}
-
-.hamburger{
-    display:block;
-    font-size:1.7rem;
-    cursor:pointer;
-}
-
-/* HERO */
-
 #home{
+    padding:7rem 1rem 3rem;
     height:auto;
-    padding:7rem 0 3rem;
+}
+
+#about{
+    height:auto;
+    padding:5rem 1rem;
 }
 
 .hero-content{
-    width:90%;
-    flex-direction:column;
-    gap:2rem;
+    flex-direction:column-reverse;
+    height:auto;
+    gap:3rem;
 }
 
 .hero-content-content,
 .hero-content-photo{
     width:100%;
+    text-align:center;
+    align-items:center;
 }
 
-.hero-content-content{
-    align-items:center;
-    text-align:center;
+.hero-content-photo img{
+    width:320px;
+    height:320px;
 }
 
 .hero-content-content h3{
     width:100%;
-    font-size:2.3rem;
 }
 
 .hero-content-content p{
@@ -80,42 +66,27 @@
     justify-content:center;
 }
 
-.hero-content-photo img{
-    width:320px;
-    max-width:90%;
-    height:auto;
-}
-
-/* TECH STACK */
-
 .tech-stack{
-    width:90%;
     flex-direction:column;
-    gap:1.5rem;
+    align-items:center;
+    gap:2rem;
+    height:auto;
 }
 
 .tech-content,
 .tech-icons{
     width:100%;
+    justify-content:center;
 }
 
 .tech-icons{
     flex-wrap:wrap;
-    justify-content:center;
-    gap:1.5rem;
-}
-
-/* ABOUT */
-
-#about{
-    height:auto;
-    padding:5rem 0;
 }
 
 .about-outer{
-    width:90%;
-    flex-direction:column-reverse;
-    gap:3rem;
+    flex-direction:column;
+    height:auto;
+    gap:5rem;
 }
 
 .about-left,
@@ -123,24 +94,12 @@
     width:100%;
 }
 
-.about-left-pic{
-    width:90%;
-    max-width:420px;
-}
-
-.about-right-content{
-    width:100%;
-    text-align:center;
-    align-items:center;
-}
-
-/* PROJECT */
-
 .card,
 .card-1{
-    width:100%;
-    height:auto;
     flex-direction:column;
+    height:auto;
+    gap:2rem;
+    padding:2rem;
 }
 
 .card-left,
@@ -148,81 +107,98 @@
 .card-1-left,
 .card-1-right{
     width:100%;
-    height:250px;
 }
 
+.card-left,
+.card-1-right{
+    height:300px;
 }
 
-
-
-
-/*==========================================================================================================================================================================================================================================================480PX==============================================================================================================================================================================================================================================  */
-
-
-@media (max-width:480px){
-
-#navBar{
-    padding:0 1rem;
+.nav-links{
+    display:none;
 }
 
-.hero-content-content h3{
-    font-size:1.8rem;
-}
-
-.hero-content-content p{
-    font-size:1rem;
-}
-
-.tech-content h3{
-    font-size:1rem;
-}
-
-.tech-icons svg{
-    width:2.3rem;
-    height:2.3rem;
-}
-
-.about-right-content h1{
-    font-size:1.4rem;
-}
-
-.about-right-content p{
-    font-size:.95rem;
-}
-
-.project-heading h1{
-    font-size:1.5rem;
-}
-
-.project-heading h3{
-    font-size:1rem;
-}
-
-.circle-text{
-    width:130px;
-    height:130px;
-    bottom:-35px;
-    right:-20px;
-}
-
-.center-icon{
+.hamburger{
+    display:block;
     font-size:2rem;
 }
 
 }
 
 
-
-
-/*==========================================================================================================================================================================================================================================================360X==============================================================================================================================================================================================================================================  */
-@media (max-width:360px){
-
-.hero-content-content h3{
-    font-size:1.5rem;
-}
+/* =====================================================
+   600px and below
+===================================================== */
+@media (max-width:600px){
 
 .hero-content-photo img{
     width:260px;
+    height:260px;
+}
+
+.hero-content-content h3{
+    font-size:2rem;
+}
+
+.hero-content-content p{
+    font-size:1rem;
+}
+
+.center-icon {
+    right: 2rem;
+}
+
+.about-left-pic{
+    width:100%;
+    height:300px;
+}
+
+.circle-text{
+    width:140px;
+    height:140px;
+    right:-15px;
+    bottom:-40px;
+}
+
+.center-icon{
+    font-size:2rem;
+}
+
+.project-heading h1{
+    font-size:1.5rem;
+}
+
+.link-card{
+    gap:1rem;
+}
+
+}
+
+
+/* =====================================================
+   480px and below
+===================================================== */
+@media (max-width:480px){
+
+#navBar{
+    padding:0 1rem;
+}
+
+.hero-content-photo img{
+    width:220px;
+    height:220px;
+}
+
+.hero-content-content{
+    gap:1rem;
+}
+
+.hero-content-content h3{
+    font-size:1.7rem;
+}
+
+.hero-content-content p{
+    font-size:.95rem;
 }
 
 .tech-icons{
@@ -230,12 +206,127 @@
 }
 
 .tech-icons svg{
-    width:2rem;
-    height:2rem;
+    width:38px;
+    height:38px;
 }
 
 .about-right-content h1{
-    font-size:1.2rem;
+    font-size:1.3rem;
+}
+
+.about-right-content p{
+    font-size:.95rem;
+}
+
+.center-icon {
+    right: 2.5rem;
+}
+
+.project-heading h1{
+    font-size:1.3rem;
+}
+
+.card,
+.card-1{
+    padding:1rem;
+}
+
+.card-left,
+.card-1-right{
+    height:220px;
+}
+
+.link-card{
+    flex-direction:column;
+}
+
+}
+
+
+/* =====================================================
+   390px and below
+===================================================== */
+@media (max-width:390px){
+
+.hero-content-photo img{
+    width:190px;
+    height:190px;
+}
+
+.hero-content-content h3{
+    font-size:1.5rem;
+}
+
+.hero-content-content p{
+    font-size:.9rem;
+}
+
+.tech-icons svg{
+    width:32px;
+    height:32px;
+}
+
+.about-left-pic{
+    height:250px;
+}
+
+.card-left,
+.card-1-right{
+    height:180px;
+}
+
+.project-heading h1{
+    font-size:1.1rem;
+}
+
+}
+
+
+/* =====================================================
+   320px and below
+===================================================== */
+@media (max-width:320px){
+
+.navbar-icon h1{
+    font-size:1rem;
+}
+
+.hero-content-photo img{
+    width:160px;
+    height:160px;
+}
+
+.hero-content-content h3{
+    font-size:1.3rem;
+}
+
+.hero-content-content p{
+    font-size:.8rem;
+}
+
+.tech-icons{
+    gap:.6rem;
+}
+
+.tech-icons svg{
+    width:28px;
+    height:28px;
+}
+
+.about-right-content h1{
+    font-size:1.1rem;
+}
+
+.about-right-content p{
+    font-size:.8rem;
+}
+
+.project-heading h1{
+    font-size:1rem;
+}
+
+.link-card a{
+    font-size:1rem;
 }
 
 }
