@@ -287,8 +287,8 @@
 }
 
 .cor {
-    height: 12rem;
-    width: 12rem;
+    height: 60%;
+    width: 60%;
     border-radius: 50%;
     position: relative;
     background-color: cadetblue;
