@@ -83,11 +83,6 @@
 
 
 
-
-
-
-
-
 /*      Hero     */
 
 #home {
@@ -371,4 +366,121 @@
 .about-right-content p {
     line-height: 1.45rem;
     color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*========================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================  */
+
+
+
+
+
+
+
+/*      Project     */
+
+#Project {
+    margin-top: 4rem;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer-project {
+    margin-top: 3rem;
+    width: 80%;
+    /* background-color: lime; */
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 3rem;
+}
+
+.project-heading {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.project-heading h3 {
+    color: rgb(7, 153, 244);
+    font-weight: 800;
+}
+
+.project-heading h1 {
+    font-size: 2rem;
+    font-weight: 650;
+}
+
+.cards-outer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: khaki; */
+    gap: 2rem;
+}
+
+.card {
+    height: 25rem;
+    width: 85%;
+    background-color: rgb(46, 86, 185);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card-left {
+    height: 100%;
+    width: 50%;
+    background-color: mediumspringgreen;
+    
+}
+
+.card-right {
+    height: 100%;
+    width: 50%;
+    background-color: rgb(8, 24, 18);
+}
+
+
+
+.card-1 {
+    height: 25rem;
+    width: 85%;
+    background-color: olive;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.card-1-left {
+    height: 100%;
+    width: 50%;
+    background-color: mediumspringgreen;
+    
+}
+
+.card-1-right {
+    height: 100%;
+    width: 50%;
+    background-color: rgb(8, 24, 18);
 }
