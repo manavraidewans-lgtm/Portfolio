@@ -597,3 +597,99 @@
     font-weight: 700;
     font-size: 1.2rem;
 }
+
+
+
+/*          CONTACT             */
+
+#Contact {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-outer {
+    height: 50%;
+    width: 80%;
+    /* background-color: aqua; */
+    border: 1px solid;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.contact-outer h2 {
+    color: rgb(7, 153, 244);
+    font-weight: 800;
+}
+
+.contact-outer h1 {
+    font-size: 2rem;
+}
+
+.contact-info {
+    height: 80%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-cards-outer {
+    height: 30%;
+    width: 40%;
+    /* background-color: lightgrey; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-card-left {
+    height: 100%;
+    width: 20%;
+    /* background-color: navajowhite; */
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.contact-card-left i {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.contact-card-right {
+    height: 100%;
+    width: 80%;
+    /* background-color: rgb(142, 90, 10); */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.contact-card-right a{
+    text-decoration: none;
+    color: #111;
+    cursor: pointer;
+}
+
+.contact-card-right p {
+    color: grey;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.contact-card-right h3 {
+    font-weight: 800;
+    cursor: pointer;
+}

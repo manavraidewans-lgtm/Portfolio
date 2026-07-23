@@ -127,6 +127,8 @@
     font-size:2rem;
 }
 
+
+
 }
 
 
@@ -175,6 +177,8 @@
 .link-card{
     gap:1rem;
 }
+
+
 
 }
 
@@ -244,6 +248,7 @@
     flex-direction:column;
 }
 
+
 }
 
 
@@ -282,6 +287,8 @@
 .project-heading h1{
     font-size:1.1rem;
 }
+
+
 
 }
 
@@ -332,5 +339,6 @@
 .link-card a{
     font-size:1rem;
 }
+
 
 }
