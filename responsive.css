@@ -102,6 +102,10 @@
     padding:2rem;
 }
 
+.card-1 {
+    flex-direction: column-reverse;
+}
+
 .card-left,
 .card-right,
 .card-1-left,
