@@ -258,8 +258,38 @@
 }
 
 .link-card{
+    gap:1rem;
+}
+
+#Contact {
+    padding: 3rem 1rem;
+}
+
+.contact-outer {
+    width: 100%;
+    padding: 1.25rem;
+    gap: 1rem;
+}
+
+.contact-info {
+    gap: 1rem;
+    justify-content: center;
+}
+
+.contact-cards-outer {
+    width: 100%;
+    min-width: 0;
+}
+
+.contact-card-left {
+    width: 18%;
+}
+
+.contact-card-right {
+    width: 82%;
     flex-direction:column;
 }
+
 
 .about-left {
     width: 100%;
@@ -304,12 +334,26 @@
     font-size:1.1rem;
 }
 
+.contact-outer {
+    padding: 1rem;
+}
 
-.about-left {
+.contact-info {
+    gap: 0.75rem;
+}
+
+.contact-cards-outer {
     width: 100%;
 }
 
+.contact-card-left {
+    width: 18%;
 }
+
+.contact-card-right {
+    width: 70%;
+}
+
 
 
 /* =====================================================
