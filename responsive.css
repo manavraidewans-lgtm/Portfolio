@@ -361,13 +361,14 @@
 ===================================================== */
 @media (max-width:320px){
 
-.navbar-icon h1{
-    font-size:1rem;
-}
 
 .hero-content-photo img{
     width:160px;
     height:160px;
+}
+
+.navbar-icon h1 {
+    font-size:1rem; 
 }
 
 .hero-content-content h3{
@@ -405,6 +406,14 @@
 
 .about-left {
     width: 100%;
+}
+
+#Footer {
+    width: 100%;
+
+    h1 {
+        width: 100%;
+    }
 }
 
 }
