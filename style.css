@@ -471,7 +471,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid;
+    /* border: 1px solid;  */
     border-radius: 20px;
 }
 
@@ -567,8 +567,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 20px ;
-    border: 1px solid;
+    /* border-radius: 20px ; */
+    /* border: 1px solid; */
 }
 
 .card-1-left h3 {
@@ -741,4 +741,34 @@
 
 .hamburger.active span:nth-child(3){
     transform:rotate(-45deg) translate(8px,-8px);
+}
+
+
+
+
+/*      PROJECTS CARDS  */
+
+.project-pic-1 {
+    background-image: url("Assets/Proj-1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.project-pic-2 {
+    background-image: url("Assets/Proj-2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.project-pic-3 {
+    background-image: url("Assets/Proj-3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.project-pic-4 {
+    background-image: url("Assets/Proj-4.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
