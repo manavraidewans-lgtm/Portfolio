@@ -290,6 +290,14 @@
     flex-direction:column;
 }
 
+#Footer {
+    padding: 1.5rem 1rem;
+}
+
+#Footer h1 {
+    font-size: 0.95rem;
+}
+
 
 .about-left {
     width: 100%;
@@ -354,15 +362,19 @@
     width: 70%;
 }
 
+#Footer h1 {
+    font-size: 0.9rem;
+}
+
 
 
 /* =====================================================
    320px and below
 ===================================================== */
-@media (max-width:320px){
+@media (max-width:320px) {
 
 
-.hero-content-photo img{
+.hero-content-photo img {
     width:160px;
     height:160px;
 }
@@ -406,14 +418,6 @@
 
 .about-left {
     width: 100%;
-}
-
-#Footer {
-    width: 100%;
-
-    h1 {
-        width: 100%;
-    }
 }
 
 }
