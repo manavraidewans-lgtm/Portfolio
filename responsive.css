@@ -126,12 +126,29 @@
 }
 
 .nav-links{
-    display:none;
+    position:fixed;
+    top:3.5rem;
+    left:-100%;
+    width:100%;
+    height:calc(100vh - 3.5rem);
+    background:white;
+    transition:.4s;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.nav-links ul{
+    flex-direction:column;
+    gap:2rem;
+}
+
+.nav-links.active{
+    left:0;
 }
 
 .hamburger{
-    display:block;
-    font-size:2rem;
+    display:flex;
 }
 
 .about-left {
